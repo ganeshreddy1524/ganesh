@@ -1,0 +1,18 @@
+#table{
+
+    margin: auto;
+    
+    border-spacing: 15px 0px;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+td,th{
+    border: 2px solid black;
+    padding: 12px;
+}
+.revature{
+    text-align: center;
+    font-weight: bold;
+}

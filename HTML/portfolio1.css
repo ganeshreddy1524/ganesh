@@ -1,0 +1,35 @@
+.image{  
+ display: flex;
+ height: 200px;
+ justify-content: center;
+ background-color: #51504e7e
+}
+h1{
+    text-align: center;
+}
+.Description{
+    padding-left: 70px;
+    font-size: large    ;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.links{
+    display: flex;
+    justify-content:flex-end;
+    gap: 20px;
+    background-color: #51504e7e
+    
+}
+.header{
+    display: block;
+}
+button{
+    margin-left: 400px;
+}
+.footer{
+    padding-top: 20px;
+    
+}

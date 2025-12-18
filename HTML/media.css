@@ -1,0 +1,31 @@
+.navbar{
+    
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+    float: inline-end;
+    margin-top: 20px;
+    
+}
+.navbar a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+}
+a:hover{
+    font-size: larger;
+    
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+h1{
+    padding-top: 50px;
+}
+.video{
+    margin-top: -100px;
+    width: 500px;
+    height: 500px;
+}
