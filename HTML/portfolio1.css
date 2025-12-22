@@ -2,7 +2,8 @@
  display: flex;
  height: 200px;
  justify-content: center;
- background-color: #51504e7e
+ background-color: #51504e7e;
+ 
 }
 h1{
     text-align: center;
@@ -27,9 +28,14 @@ h1{
     display: block;
 }
 button{
-    margin-left: 400px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 .footer{
     padding-top: 20px;
     
+}
+.body{
+    background-color: rgb(238, 238, 238);
+    padding-top: 5px;
 }
