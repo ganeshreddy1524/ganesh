@@ -1,91 +1,58 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2025-12-31 09:37
+**Review Date:** 2025-12-31 10:52
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 7
+**Files submitted:** 6
 
-### Code Review
+### Relevance Check
 
-📄 **department-stats.sql**
-   Path: `09-mysql/challenge-01/department-stats.sql`
-   Lines: 8
+❌ **Submission does NOT match exercise requirements**
+   Expected keywords: customer product category order ecommerce schema queries
+   Found only: order 
+   **Please review the exercise requirements and resubmit**
 
-    - ✅ Contains 2 SELECT statement(s)
-    - 💡 Consider using JOINs for related data
-    - ✅ Uses aggregate functions
-    - ✅ Uses GROUP BY for aggregation
-    - ⚠️ Uses `SELECT *` - prefer explicit columns
+### ⚠️ Review Skipped
 
-   **Score: 3/5**
+The submission does not appear to match the exercise requirements.
+Please complete the correct exercise and resubmit.
 
-📄 **employee-hierarchy.sql**
-   Path: `09-mysql/challenge-02/employee-hierarchy.sql`
-   Lines: 1
-
-    - ✅ Contains 1 SELECT statement(s)
-    - ✅ Uses JOIN operations
-    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
-    - ✅ Uses explicit column selection
-
-   **Score: 3/5**
-
-📄 **project-workload.sql**
-   Path: `09-mysql/challenge-03/project-workload.sql`
-   Lines: 6
-
-    - ✅ Contains 1 SELECT statement(s)
-    - ✅ Uses JOIN operations
-    - ✅ Uses aggregate functions
-    - ✅ Uses GROUP BY for aggregation
-    - ✅ Uses explicit column selection
-
-   **Score: 5/5**
-
-📄 **top-earners.sq.sql**
-   Path: `09-mysql/challenge-04/top-earners.sq.sql`
-   Lines: 4
-
-    - ✅ Contains 1 SELECT statement(s)
-    - 💡 Consider using JOINs for related data
-    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
-    - ✅ Uses explicit column selection
-
-   **Score: 2/5**
-
-📄 **unassigned-resources.sql**
-   Path: `09-mysql/challenge-05/unassigned-resources.sql`
-   Lines: 0
-
-    - ✅ Contains 1 SELECT statement(s)
-    - ✅ Uses JOIN operations
-    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
-    - ✅ Uses explicit column selection
-
-   **Score: 3/5**
-
-📄 **name-formatter.sql**
-   Path: `09-mysql/challenge-06/name-formatter.sql`
-   Lines: 0
-
-    - ✅ Contains 1 SELECT statement(s)
-    - 💡 Consider using JOINs for related data
-    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
-    - ✅ Uses explicit column selection
-
-   **Score: 2/5**
-
-### Topic Score: 18 / 30 (60%)
+### Topic Score: 0 / 100 (0%)
 
 ---
 
 ## Challenge
 
 **Status:** ✅ Submitted (1 files)
+
+### Challenge Relevance Check
+
+⚠️ Submission partially matches exercise requirements
+   Found: employee department salary 
+   Missing: project assignment 
+
+### Challenge Code Review
+
+📄 **department-stats.sql**
+   Lines: 8
+
+    📋 **Challenge 1: Department Stats**
+    Expected: department, employee_count, avg_salary, max_salary
+
+    - ✅ Groups by department
+    - ✅ Counts employees (COUNT(*))
+    - ✅ Calculates average salary
+    - ✅ Finds maximum salary
+    - ✅ Filters departments with >2 employees (HAVING)
+
+   **Score: 5/5**
+
+### Challenge Score: 5 / 5 (100%)
+
 
 ---
 
