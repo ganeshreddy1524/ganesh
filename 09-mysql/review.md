@@ -1,34 +1,91 @@
 # Review: 09-mysql
 
 **Exercise:**  Exercise: E-Commerce Database Design and Queries
-**Review Date:** 2025-12-30 15:26
+**Review Date:** 2025-12-31 09:37
 
 ---
 
 ## Status: ✅ Submitted
 
-**Files submitted:** 2
+**Files submitted:** 7
 
 ### Code Review
 
 📄 **department-stats.sql**
-   Path: `09-mysql/department-stats.sql`
+   Path: `09-mysql/challenge-01/department-stats.sql`
    Lines: 8
 
-    - ❌ Missing PRIMARY KEY definitions
+    - ✅ Contains 2 SELECT statement(s)
+    - 💡 Consider using JOINs for related data
+    - ✅ Uses aggregate functions
+    - ✅ Uses GROUP BY for aggregation
     - ⚠️ Uses `SELECT *` - prefer explicit columns
 
-   **Score: 0/5**
+   **Score: 3/5**
 
-### Topic Score: 0 / 5 (0%)
+📄 **employee-hierarchy.sql**
+   Path: `09-mysql/challenge-02/employee-hierarchy.sql`
+   Lines: 1
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 3/5**
+
+📄 **project-workload.sql**
+   Path: `09-mysql/challenge-03/project-workload.sql`
+   Lines: 6
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - ✅ Uses aggregate functions
+    - ✅ Uses GROUP BY for aggregation
+    - ✅ Uses explicit column selection
+
+   **Score: 5/5**
+
+📄 **top-earners.sq.sql**
+   Path: `09-mysql/challenge-04/top-earners.sq.sql`
+   Lines: 4
+
+    - ✅ Contains 1 SELECT statement(s)
+    - 💡 Consider using JOINs for related data
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 2/5**
+
+📄 **unassigned-resources.sql**
+   Path: `09-mysql/challenge-05/unassigned-resources.sql`
+   Lines: 0
+
+    - ✅ Contains 1 SELECT statement(s)
+    - ✅ Uses JOIN operations
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 3/5**
+
+📄 **name-formatter.sql**
+   Path: `09-mysql/challenge-06/name-formatter.sql`
+   Lines: 0
+
+    - ✅ Contains 1 SELECT statement(s)
+    - 💡 Consider using JOINs for related data
+    - 💡 Consider using aggregate functions (COUNT, SUM, etc.)
+    - ✅ Uses explicit column selection
+
+   **Score: 2/5**
+
+### Topic Score: 18 / 30 (60%)
 
 ---
 
 ## Challenge
 
-**Status:** ⚠️ Not submitted
-
-Submit to: `09-mysql/challenge-01/`
+**Status:** ✅ Submitted (1 files)
 
 ---
 
